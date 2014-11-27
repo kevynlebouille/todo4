@@ -44,6 +44,8 @@ GEM
     minitest (5.4.3)
     multi_json (1.10.1)
     mysql2 (0.3.17)
+    puma (2.9.2)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -90,5 +92,6 @@ DEPENDENCIES
   acts_as_list
   jbuilder (~> 2.0)
   mysql2
+  puma
   rails (= 4.1.6)
   sdoc (~> 0.4.0)
